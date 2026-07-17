@@ -45,8 +45,8 @@ This project provides a comprehensive end-to-end analysis of marketing data, cov
     - **Customer Reviews:** Deep dive into sentiment distribution and ratings.
 
 ## 📁 Repository Structure
-* `/data`: Contains the source dataset used for the visualization.
-* `/sql-scripts`: Includes custom icons and background layouts.
-* `/python-notebook`: Images of the finished dashboard pages.
-* `/powerbi-dashboard`: The main packaged Tableau workbook.
-* `/screenshots`: The main packaged Tableau workbook.
+* `/data`: Contains the raw dataset.
+* `/sql-scripts`: SQL queries used to clean and standardize the data and data exploration and analysis.
+* `/python-notebook`: Python code.
+* `/powerbi-dashboard`: The main packaged Power BI workbook..
+* `/screenshots`: Images of the finished dashboard pages.
