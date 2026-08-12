@@ -1,6 +1,6 @@
 # E-Commerce Marketing Performance & Customer Sentiment Analysis
 
-## Executive Summary
+## 1. Executive Summary
 
 ### The Business Problem
 The company faced declining conversion rates (bottoming at 4.3% in May) and shrinking social media reach in H2, despite stable product ratings (3.7/5.0). Marketing spend was inefficiently distributed due to a lack of visibility into customer drop-offs and sentiment-driven satisfaction gaps.
@@ -25,7 +25,7 @@ Engineered an **End-to-End Analytics Pipeline** that cleans raw transactional da
 
 ---
 
-## 3. Business Problem
+## 2. Business Problem
 
 The marketing department lacked a unified data infrastructure to monitor conversion funnels, campaign effectiveness, and post-purchase customer feedback. Siloed transactional databases and unstructured review text obscured critical insights into why conversion rates fluctuated drastically throughout the year and why customer engagement deteriorated in the second half.
 
@@ -34,7 +34,7 @@ The marketing department lacked a unified data infrastructure to monitor convers
 
 ---
 
-## 4. Methodology
+## 3. Methodology
 
 - **Data Cleaning & Standardization (SQL / MySQL):** Merged multi-source datasets, resolved missing values, and built optimized **SQL Views** to serve as a reliable, single source of truth for downstream consumption.
 - **Natural Language Processing & Feature Engineering (Python):** Integrated `SQLAlchemy` with `NLTK (VADER)` to quantify unstructured customer sentiment, creating hybrid features (`Sentiment Category` & `Sentiment Range`) that pair text polarity with numerical ratings.
@@ -46,7 +46,7 @@ The marketing department lacked a unified data infrastructure to monitor convers
 
 ---
 
-## 5. Skills
+## 4. Skills
 
 - **Data Engineering & Querying:** SQL, MySQL, Data Sanitization, Schema Standardization, Views Creation, ETL Concepts.
 - **Advanced Analytics & Machine Learning (NLP):** Python, `Pandas`, `NLTK (VADER)`, Sentiment Analysis, Feature Engineering, `SQLAlchemy`.
@@ -55,7 +55,7 @@ The marketing department lacked a unified data infrastructure to monitor convers
 
 ---
 
-## 6. Results & Business Recommendation
+## 5. Results & Business Recommendation
 
 ### Key Results
 1. **Conversion Dynamics:** High seasonal variance identified; January peaked at **18.5%** (driven by Ski Boots at 150% conversion), while May dropped to a low of **4.3%**.
@@ -69,7 +69,7 @@ The marketing department lacked a unified data infrastructure to monitor convers
 
 ---
 
-## 7. Next Steps
+## 6. Next Steps
 
 - [ ] **Automate Pipeline Execution:** Convert the Python Jupyter Notebook into an orchestrated Python script running scheduled ETL tasks via Apache Airflow or Prefect.
 - [ ] **Advanced NLP Modeling:** Train a fine-tuned Transformer-based model (e.g., RoBERTa/BERT) for deeper aspect-based sentiment analysis (ABSA) on specific product features.
